@@ -9,10 +9,39 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body style="height: fit-content;">
+
+<!-- Nav-bar starts -->
+<nav class="navbar navbar-expand-sm bg-dark text-white fixed-top">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="Home.html">
+      <img src="logo.png" alt="logo" style="width:40px;height: auto;">
+  </a>
+  <a class="navbar-brand" href="Home.html"><strong>Home</strong></a>
+  
+  <ul class="navbar-nav">
+      <li class="nav-item">
+          <a class="nav-link text-white" href="StockMarketInfo.html">Stock Market</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link text-white" href="MutualFundInfo.html">Mutual Funds</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link text-white" href="CryptoInfo.html">CryptoCurrency</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="News.html">Latest News</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="CreatedBy.html">Team Section</a>
+      </li>
+  </ul>
+</nav>
+<!-- Nav-bar ends -->
+
 
 <div class="container-fluid p-3 my-3 bg-dark text-white">
-<h1> HDFC Bank Ltd.</h1>
+<h1 style="margin-top: 50px;"> HDFC Bank Ltd.</h1>
 <p>NSE:<span class = "badge badge-primary">  RELIANCE  </span> BSE:
 <span class = "badge badge-primary"> 500325 </span> SECTOR: Refineries </p>
 <h1>₹ 1488.70 </h1>
@@ -186,7 +215,28 @@
   </div>
 </div>
 
+    <nav class="navbar navbar-expand-sm bg-dark justify-content-center">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <p class="text-white">End Of Page.</p>
+        </li>
+      </ul>
+    </nav>
+    <!-- body ends here -->
 
+    <script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "1119b144-70dd-442f-a04f-4674ef6b4da9", // The ID of this integration.
+        region: "eu-gb", // The region your integration is hosted in.
+        serviceInstanceID: "38186e47-4c1a-47d8-9f83-049c34236b20", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+      document.head.appendChild(t);
+    });
+    </script>
 
 
 

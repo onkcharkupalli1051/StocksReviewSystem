@@ -65,7 +65,7 @@
 
                 <tbody>
                     <tr>
-                      <td><a href="https://groww.in/stocks/sun-pharmaceutical-industries-ltd" target="_blank">Sun Pharma</a></td>
+                      <td><a href="Sun_pharma.html" target="_blank">Sun Pharma</a></td>
                       <td>665.15 <p class="text-success">0.10 (0.02%)</p></td>
                       <td>669.10</td>
                       <td>160536</td>
@@ -113,5 +113,20 @@
         </ul>
       </nav>
     <!-- body ends here -->
+
+    <script>
+      window.watsonAssistantChatOptions = {
+          integrationID: "1119b144-70dd-442f-a04f-4674ef6b4da9", // The ID of this integration.
+          region: "eu-gb", // The region your integration is hosted in.
+          serviceInstanceID: "38186e47-4c1a-47d8-9f83-049c34236b20", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+      setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+        document.head.appendChild(t);
+      });
+    </script>
+    
 </body>
 </html>

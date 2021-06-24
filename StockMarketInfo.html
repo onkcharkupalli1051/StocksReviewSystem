@@ -129,7 +129,7 @@
                 Sectors also make it easier to compare which stocks are making the most money. <br>
                 This helps you make decisions about what your next investments will be.<br>
             </p>
-            <a href="energy.html" class="btn btn-info" role="button" target="_blank">Energy Sector</a>
+            <a href="energy_new_chages.html" class="btn btn-info" role="button" target="_blank">Energy Sector</a>
             <a href="material.html" class="btn btn-info" role="button" target="_blank">Material Sector</a>      
             <a href="it.html" class="btn btn-info" role="button" target="_blank">Information Technology Sector</a>      
             <a href="healthcare.html" class="btn btn-info" role="button" target="_blank">HealthCare Sector</a>      
@@ -151,16 +151,16 @@
   
       <div class="container mt-3 ">
         <div class="media border p-3 bg-secondary text-white">
-          <div class="media-body p-3">
+          <div class="media-body p-3 align-items-center justify-content-center">
             <h2>Recommended Mentors/Tutors : </h2>
             <h4>Pranjal Kamra</h4>
-            <iframe width="280" height="150" src="https://www.youtube.com/embed/3UF0ymVdYLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3UF0ymVdYLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <br><br>
             <h4>Rachana Ranade</h4>
-            <iframe width="280" height="150" src="https://www.youtube.com/embed/7-2dKzOG1pM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7-2dKzOG1pM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <br><br>
             <h4>Warikoo</h4>
-            <iframe width="280" height="150" src="https://www.youtube.com/embed/7-NvAOqjJmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7-NvAOqjJmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
     </div>
@@ -174,5 +174,19 @@
         </ul>
       </nav>
     <!-- body ends here -->
+
+    <script>
+      window.watsonAssistantChatOptions = {
+          integrationID: "1119b144-70dd-442f-a04f-4674ef6b4da9", // The ID of this integration.
+          region: "eu-gb", // The region your integration is hosted in.
+          serviceInstanceID: "38186e47-4c1a-47d8-9f83-049c34236b20", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+      setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+        document.head.appendChild(t);
+      });
+    </script>
 </body>
 </html>
